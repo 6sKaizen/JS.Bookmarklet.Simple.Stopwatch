@@ -1,4 +1,3 @@
-(function() {
     var SW = function(elem, options) {
         var timer = createTimer(),
             startButton = createButton("start", start),
@@ -86,4 +85,3 @@
     [...SWdiv.querySelectorAll("a")].forEach((lnk) => {
         lnk.style.cssText = 'background-color:inherit;padding-right: 5px;text-decoration: none;color:blue;font-family: monospace;';
     });
-})();
